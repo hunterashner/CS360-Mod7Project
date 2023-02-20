@@ -7,7 +7,9 @@ import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
 import android.database.sqlite.SQLiteOpenHelper;
 
-
+//https://abhiandroid.com/database/sqlite#SQLite_Example_In_Android_Studio
+//example for adding SQLite to android studio application
+//todo modify for adding goal weights and daily weight entries
 public class myDbAdapter {
     myDbHelper myhelper;
     public myDbAdapter(Context context)

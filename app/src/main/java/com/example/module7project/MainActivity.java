@@ -27,6 +27,7 @@ public class MainActivity extends AppCompatActivity {
         _adapter = new myDbAdapter(this);
     }
 
+    //Add new user to the database
     public void addUser(View view){
         String field1 = _username.getText().toString();
         String field2 = _password.getText().toString();
@@ -47,6 +48,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
+    //test user against database need to add conditional logic to handle login
     public void submitLogin(View view){
         String field1 = _username.getText().toString();
         String field2 = _password.getText().toString();

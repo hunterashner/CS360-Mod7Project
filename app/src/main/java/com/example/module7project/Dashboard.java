@@ -22,6 +22,7 @@ public class Dashboard {
 
     public Dashboard(){}
 
+    //initializes dashboard classes upon for swap to dashboard layout
     public static void doInitilization(AppCompatActivity activity){
         activity.setContentView(R.layout.activity_dashboard);
         dateView = (TextView) activity.findViewById(R.id.dashDateView);
